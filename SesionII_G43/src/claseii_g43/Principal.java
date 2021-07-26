@@ -15,6 +15,7 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("Cambio generado 26/07/2021");
         Scanner inst_lectura_input = new Scanner(System.in);
         System.out.println("Ingresa el nombre de tu mascota");
         String nombre_mascota = inst_lectura_input.nextLine();
